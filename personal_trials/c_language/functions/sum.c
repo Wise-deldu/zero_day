@@ -16,7 +16,7 @@ void sum ()
 {
 	int a, b, c;
 	printf("Enter 2 numbers: ");
-	scanf("%d\n%d", &a, &b);
+	scanf("%d%d", &a, &b);
 	c = a + b;
 	printf("sum = %d\n", c);
 }
